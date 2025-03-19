@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'paytrail/paytrail-for-woocommerce',
-        'pretty_version' => '2.5.0',
-        'version' => '2.5.0.0',
-        'reference' => 'd6fa3a3dd3f29b3a445bb1df13dca63adbb0d7ad',
+        'pretty_version' => '2.5.1',
+        'version' => '2.5.1.0',
+        'reference' => '5534d9ef84ef8d05c8d9a2a7c88d0b7e3439b37f',
         'type' => 'wordpress-plugin',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -11,9 +11,9 @@
     ),
     'versions' => array(
         'paytrail/paytrail-for-woocommerce' => array(
-            'pretty_version' => '2.5.0',
-            'version' => '2.5.0.0',
-            'reference' => 'd6fa3a3dd3f29b3a445bb1df13dca63adbb0d7ad',
+            'pretty_version' => '2.5.1',
+            'version' => '2.5.1.0',
+            'reference' => '5534d9ef84ef8d05c8d9a2a7c88d0b7e3439b37f',
             'type' => 'wordpress-plugin',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
