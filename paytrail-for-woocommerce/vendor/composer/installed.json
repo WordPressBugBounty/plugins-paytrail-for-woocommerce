@@ -2,17 +2,17 @@
     "packages": [
         {
             "name": "paytrail/paytrail-php-sdk",
-            "version": "2.7.5",
-            "version_normalized": "2.7.5.0",
+            "version": "2.7.6",
+            "version_normalized": "2.7.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/paytrail/paytrail-php-sdk.git",
-                "reference": "18103670c3dce1bf9000eb45cb7ca9cd70f1f73f"
+                "reference": "1f7eabe72312212a399cb65a6c0aec2556bf2777"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/paytrail/paytrail-php-sdk/zipball/18103670c3dce1bf9000eb45cb7ca9cd70f1f73f",
-                "reference": "18103670c3dce1bf9000eb45cb7ca9cd70f1f73f",
+                "url": "https://api.github.com/repos/paytrail/paytrail-php-sdk/zipball/1f7eabe72312212a399cb65a6c0aec2556bf2777",
+                "reference": "1f7eabe72312212a399cb65a6c0aec2556bf2777",
                 "shasum": ""
             },
             "require": {
@@ -30,7 +30,7 @@
                 "phpunit/phpunit": "^10.0 || ^9.0",
                 "squizlabs/php_codesniffer": "^3.6"
             },
-            "time": "2025-06-16T07:26:22+00:00",
+            "time": "2025-12-16T12:58:32+00:00",
             "type": "library",
             "installation-source": "dist",
             "autoload": {
@@ -58,7 +58,7 @@
             ],
             "support": {
                 "issues": "https://github.com/paytrail/paytrail-php-sdk/issues",
-                "source": "https://github.com/paytrail/paytrail-php-sdk/tree/2.7.5"
+                "source": "https://github.com/paytrail/paytrail-php-sdk/tree/2.7.6"
             },
             "install-path": "../paytrail/paytrail-php-sdk"
         }

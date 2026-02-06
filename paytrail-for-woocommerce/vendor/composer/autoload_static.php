@@ -7,11 +7,11 @@ namespace Composer\Autoload;
 class ComposerStaticInit3d970a799b5868b0e83b32078933bb1d
 {
     public static $prefixLengthsPsr4 = array (
-        'T' => 
+        'T' =>
         array (
             'Tests\\' => 6,
         ),
-        'P' => 
+        'P' =>
         array (
             'Paytrail\\WooCommercePaymentGateway\\' => 35,
             'Paytrail\\SDK\\' => 13,
@@ -19,15 +19,15 @@ class ComposerStaticInit3d970a799b5868b0e83b32078933bb1d
     );
 
     public static $prefixDirsPsr4 = array (
-        'Tests\\' => 
+        'Tests\\' =>
         array (
             0 => __DIR__ . '/..' . '/paytrail/paytrail-php-sdk/tests',
         ),
-        'Paytrail\\WooCommercePaymentGateway\\' => 
+        'Paytrail\\WooCommercePaymentGateway\\' =>
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),
-        'Paytrail\\SDK\\' => 
+        'Paytrail\\SDK\\' =>
         array (
             0 => __DIR__ . '/..' . '/paytrail/paytrail-php-sdk/src',
         ),
