@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit180b7839daa15dde1eeda4f01cf3e965
+class ComposerStaticInitb6e089b57ff91578221f9cecb3a137a0
 {
     public static $prefixLengthsPsr4 = array (
         'T' =>
@@ -35,14 +35,109 @@ class ComposerStaticInit180b7839daa15dde1eeda4f01cf3e965
 
     public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
+        'Paytrail\\SDK\\Client' => __DIR__ . '/..' . '/paytrail/paytrail-php-sdk/src/Client.php',
+        'Paytrail\\SDK\\Exception\\ClientException' => __DIR__ . '/..' . '/paytrail/paytrail-php-sdk/src/Exception/ClientException.php',
+        'Paytrail\\SDK\\Exception\\HmacException' => __DIR__ . '/..' . '/paytrail/paytrail-php-sdk/src/Exception/HmacException.php',
+        'Paytrail\\SDK\\Exception\\RequestException' => __DIR__ . '/..' . '/paytrail/paytrail-php-sdk/src/Exception/RequestException.php',
+        'Paytrail\\SDK\\Exception\\ValidationException' => __DIR__ . '/..' . '/paytrail/paytrail-php-sdk/src/Exception/ValidationException.php',
+        'Paytrail\\SDK\\Interfaces\\AddressInterface' => __DIR__ . '/..' . '/paytrail/paytrail-php-sdk/src/Interfaces/AddressInterface.php',
+        'Paytrail\\SDK\\Interfaces\\CallbackUrlInterface' => __DIR__ . '/..' . '/paytrail/paytrail-php-sdk/src/Interfaces/CallbackUrlInterface.php',
+        'Paytrail\\SDK\\Interfaces\\CommissionInterface' => __DIR__ . '/..' . '/paytrail/paytrail-php-sdk/src/Interfaces/CommissionInterface.php',
+        'Paytrail\\SDK\\Interfaces\\CustomerInterface' => __DIR__ . '/..' . '/paytrail/paytrail-php-sdk/src/Interfaces/CustomerInterface.php',
+        'Paytrail\\SDK\\Interfaces\\ItemInterface' => __DIR__ . '/..' . '/paytrail/paytrail-php-sdk/src/Interfaces/ItemInterface.php',
+        'Paytrail\\SDK\\Interfaces\\PaymentRequestInterface' => __DIR__ . '/..' . '/paytrail/paytrail-php-sdk/src/Interfaces/PaymentRequestInterface.php',
+        'Paytrail\\SDK\\Interfaces\\ResponseInterface' => __DIR__ . '/..' . '/paytrail/paytrail-php-sdk/src/Interfaces/ResponseInterface.php',
+        'Paytrail\\SDK\\Interfaces\\TokenPaymentRequestInterface' => __DIR__ . '/..' . '/paytrail/paytrail-php-sdk/src/Interfaces/TokenPaymentRequestInterface.php',
+        'Paytrail\\SDK\\Model\\Address' => __DIR__ . '/..' . '/paytrail/paytrail-php-sdk/src/Model/Address.php',
+        'Paytrail\\SDK\\Model\\CallbackUrl' => __DIR__ . '/..' . '/paytrail/paytrail-php-sdk/src/Model/CallbackUrl.php',
+        'Paytrail\\SDK\\Model\\Commission' => __DIR__ . '/..' . '/paytrail/paytrail-php-sdk/src/Model/Commission.php',
+        'Paytrail\\SDK\\Model\\Customer' => __DIR__ . '/..' . '/paytrail/paytrail-php-sdk/src/Model/Customer.php',
+        'Paytrail\\SDK\\Model\\Item' => __DIR__ . '/..' . '/paytrail/paytrail-php-sdk/src/Model/Item.php',
+        'Paytrail\\SDK\\Model\\PaymentMethodGroup' => __DIR__ . '/..' . '/paytrail/paytrail-php-sdk/src/Model/PaymentMethodGroup.php',
+        'Paytrail\\SDK\\Model\\Provider' => __DIR__ . '/..' . '/paytrail/paytrail-php-sdk/src/Model/Provider.php',
+        'Paytrail\\SDK\\Model\\RefundItem' => __DIR__ . '/..' . '/paytrail/paytrail-php-sdk/src/Model/RefundItem.php',
+        'Paytrail\\SDK\\Model\\Token\\Card' => __DIR__ . '/..' . '/paytrail/paytrail-php-sdk/src/Model/Token/Card.php',
+        'Paytrail\\SDK\\Model\\Token\\Customer' => __DIR__ . '/..' . '/paytrail/paytrail-php-sdk/src/Model/Token/Customer.php',
+        'Paytrail\\SDK\\Model\\Token\\NetworkToken' => __DIR__ . '/..' . '/paytrail/paytrail-php-sdk/src/Model/Token/NetworkToken.php',
+        'Paytrail\\SDK\\PaytrailClient' => __DIR__ . '/..' . '/paytrail/paytrail-php-sdk/src/PaytrailClient.php',
+        'Paytrail\\SDK\\Request\\AbstractPaymentRequest' => __DIR__ . '/..' . '/paytrail/paytrail-php-sdk/src/Request/AbstractPaymentRequest.php',
+        'Paytrail\\SDK\\Request\\AddCardFormRequest' => __DIR__ . '/..' . '/paytrail/paytrail-php-sdk/src/Request/AddCardFormRequest.php',
+        'Paytrail\\SDK\\Request\\CitPaymentRequest' => __DIR__ . '/..' . '/paytrail/paytrail-php-sdk/src/Request/CitPaymentRequest.php',
+        'Paytrail\\SDK\\Request\\EmailRefundRequest' => __DIR__ . '/..' . '/paytrail/paytrail-php-sdk/src/Request/EmailRefundRequest.php',
+        'Paytrail\\SDK\\Request\\GetTokenRequest' => __DIR__ . '/..' . '/paytrail/paytrail-php-sdk/src/Request/GetTokenRequest.php',
+        'Paytrail\\SDK\\Request\\MitPaymentRequest' => __DIR__ . '/..' . '/paytrail/paytrail-php-sdk/src/Request/MitPaymentRequest.php',
+        'Paytrail\\SDK\\Request\\PaymentRequest' => __DIR__ . '/..' . '/paytrail/paytrail-php-sdk/src/Request/PaymentRequest.php',
+        'Paytrail\\SDK\\Request\\PaymentStatusRequest' => __DIR__ . '/..' . '/paytrail/paytrail-php-sdk/src/Request/PaymentStatusRequest.php',
+        'Paytrail\\SDK\\Request\\RefundRequest' => __DIR__ . '/..' . '/paytrail/paytrail-php-sdk/src/Request/RefundRequest.php',
+        'Paytrail\\SDK\\Request\\ReportBySettlementRequest' => __DIR__ . '/..' . '/paytrail/paytrail-php-sdk/src/Request/ReportBySettlementRequest.php',
+        'Paytrail\\SDK\\Request\\ReportRequest' => __DIR__ . '/..' . '/paytrail/paytrail-php-sdk/src/Request/ReportRequest.php',
+        'Paytrail\\SDK\\Request\\RevertPaymentAuthHoldRequest' => __DIR__ . '/..' . '/paytrail/paytrail-php-sdk/src/Request/RevertPaymentAuthHoldRequest.php',
+        'Paytrail\\SDK\\Request\\SettlementRequest' => __DIR__ . '/..' . '/paytrail/paytrail-php-sdk/src/Request/SettlementRequest.php',
+        'Paytrail\\SDK\\Request\\ShopInShopPaymentRequest' => __DIR__ . '/..' . '/paytrail/paytrail-php-sdk/src/Request/ShopInShopPaymentRequest.php',
+        'Paytrail\\SDK\\Response\\AddCardPaymentResponse' => __DIR__ . '/..' . '/paytrail/paytrail-php-sdk/src/Response/AddCardPaymentResponse.php',
+        'Paytrail\\SDK\\Response\\CitPaymentResponse' => __DIR__ . '/..' . '/paytrail/paytrail-php-sdk/src/Response/CitPaymentResponse.php',
+        'Paytrail\\SDK\\Response\\CurlResponse' => __DIR__ . '/..' . '/paytrail/paytrail-php-sdk/src/Response/CurlResponse.php',
+        'Paytrail\\SDK\\Response\\EmailRefundResponse' => __DIR__ . '/..' . '/paytrail/paytrail-php-sdk/src/Response/EmailRefundResponse.php',
+        'Paytrail\\SDK\\Response\\GetTokenResponse' => __DIR__ . '/..' . '/paytrail/paytrail-php-sdk/src/Response/GetTokenResponse.php',
+        'Paytrail\\SDK\\Response\\InvoiceActivationResponse' => __DIR__ . '/..' . '/paytrail/paytrail-php-sdk/src/Response/InvoiceActivationResponse.php',
+        'Paytrail\\SDK\\Response\\InvoiceCancellationResponse' => __DIR__ . '/..' . '/paytrail/paytrail-php-sdk/src/Response/InvoiceCancellationResponse.php',
+        'Paytrail\\SDK\\Response\\MitPaymentResponse' => __DIR__ . '/..' . '/paytrail/paytrail-php-sdk/src/Response/MitPaymentResponse.php',
+        'Paytrail\\SDK\\Response\\PaymentResponse' => __DIR__ . '/..' . '/paytrail/paytrail-php-sdk/src/Response/PaymentResponse.php',
+        'Paytrail\\SDK\\Response\\PaymentStatusResponse' => __DIR__ . '/..' . '/paytrail/paytrail-php-sdk/src/Response/PaymentStatusResponse.php',
+        'Paytrail\\SDK\\Response\\RefundResponse' => __DIR__ . '/..' . '/paytrail/paytrail-php-sdk/src/Response/RefundResponse.php',
+        'Paytrail\\SDK\\Response\\ReportRequestResponse' => __DIR__ . '/..' . '/paytrail/paytrail-php-sdk/src/Response/ReportRequestResponse.php',
+        'Paytrail\\SDK\\Response\\RevertPaymentAuthHoldResponse' => __DIR__ . '/..' . '/paytrail/paytrail-php-sdk/src/Response/RevertPaymentAuthHoldResponse.php',
+        'Paytrail\\SDK\\Response\\SettlementResponse' => __DIR__ . '/..' . '/paytrail/paytrail-php-sdk/src/Response/SettlementResponse.php',
+        'Paytrail\\SDK\\Util\\CurlClient' => __DIR__ . '/..' . '/paytrail/paytrail-php-sdk/src/Util/CurlClient.php',
+        'Paytrail\\SDK\\Util\\JsonSerializable' => __DIR__ . '/..' . '/paytrail/paytrail-php-sdk/src/Util/JsonSerializable.php',
+        'Paytrail\\SDK\\Util\\ObjectPropertyConverter' => __DIR__ . '/..' . '/paytrail/paytrail-php-sdk/src/Util/ObjectPropertyConverter.php',
+        'Paytrail\\SDK\\Util\\PropertyBinder' => __DIR__ . '/..' . '/paytrail/paytrail-php-sdk/src/Util/PropertyBinder.php',
+        'Paytrail\\SDK\\Util\\RequestClient' => __DIR__ . '/..' . '/paytrail/paytrail-php-sdk/src/Util/RequestClient.php',
+        'Paytrail\\SDK\\Util\\Signature' => __DIR__ . '/..' . '/paytrail/paytrail-php-sdk/src/Util/Signature.php',
+        'Paytrail\\WooCommercePaymentGateway\\Api\\MigrationInterface' => __DIR__ . '/../..' . '/src/Api/MigrationInterface.php',
+        'Paytrail\\WooCommercePaymentGateway\\Controllers\\AbstractController' => __DIR__ . '/../..' . '/src/Controllers/AbstractController.php',
+        'Paytrail\\WooCommercePaymentGateway\\Controllers\\Callback' => __DIR__ . '/../..' . '/src/Controllers/Callback.php',
+        'Paytrail\\WooCommercePaymentGateway\\Controllers\\Card' => __DIR__ . '/../..' . '/src/Controllers/Card.php',
+        'Paytrail\\WooCommercePaymentGateway\\Controllers\\CardCancel' => __DIR__ . '/../..' . '/src/Controllers/CardCancel.php',
+        'Paytrail\\WooCommercePaymentGateway\\Controllers\\CardSuccess' => __DIR__ . '/../..' . '/src/Controllers/CardSuccess.php',
+        'Paytrail\\WooCommercePaymentGateway\\Controllers\\MetaBox' => __DIR__ . '/../..' . '/src/Controllers/MetaBox.php',
+        'Paytrail\\WooCommercePaymentGateway\\Controllers\\OrderManagement' => __DIR__ . '/../..' . '/src/Controllers/OrderManagement.php',
+        'Paytrail\\WooCommercePaymentGateway\\Gateway' => __DIR__ . '/../..' . '/src/Gateway.php',
+        'Paytrail\\WooCommercePaymentGateway\\Helper' => __DIR__ . '/../..' . '/src/Helper.php',
+        'Paytrail\\WooCommercePaymentGateway\\Model\\MetaBox' => __DIR__ . '/../..' . '/src/Model/MetaBox.php',
+        'Paytrail\\WooCommercePaymentGateway\\Model\\PaymentSubscriptionMigration' => __DIR__ . '/../..' . '/src/Model/PaymentSubscriptionMigration.php',
+        'Paytrail\\WooCommercePaymentGateway\\Model\\PaymentTokenMigration' => __DIR__ . '/../..' . '/src/Model/PaymentTokenMigration.php',
+        'Paytrail\\WooCommercePaymentGateway\\Providers\\OPLasku' => __DIR__ . '/../..' . '/src/Providers/OPLasku.php',
+        'Paytrail\\WooCommercePaymentGateway\\Router' => __DIR__ . '/../..' . '/src/Router.php',
+        'Paytrail\\WooCommercePaymentGateway\\View' => __DIR__ . '/../..' . '/src/View.php',
+        'Tests\\ClientTest' => __DIR__ . '/..' . '/paytrail/paytrail-php-sdk/tests/ClientTest.php',
+        'Tests\\Model\\AbstractPaymentRequestTest' => __DIR__ . '/..' . '/paytrail/paytrail-php-sdk/tests/Model/AbstractPaymentRequestTest.php',
+        'Tests\\Model\\AddressTest' => __DIR__ . '/..' . '/paytrail/paytrail-php-sdk/tests/Model/AddressTest.php',
+        'Tests\\Model\\CallbackUrlTest' => __DIR__ . '/..' . '/paytrail/paytrail-php-sdk/tests/Model/CallbackUrlTest.php',
+        'Tests\\Model\\CommissionTest' => __DIR__ . '/..' . '/paytrail/paytrail-php-sdk/tests/Model/CommissionTest.php',
+        'Tests\\Model\\CustomerTest' => __DIR__ . '/..' . '/paytrail/paytrail-php-sdk/tests/Model/CustomerTest.php',
+        'Tests\\Model\\ItemTest' => __DIR__ . '/..' . '/paytrail/paytrail-php-sdk/tests/Model/ItemTest.php',
+        'Tests\\Model\\ProviderTest' => __DIR__ . '/..' . '/paytrail/paytrail-php-sdk/tests/Model/ProviderTest.php',
+        'Tests\\Model\\RefundItemTest' => __DIR__ . '/..' . '/paytrail/paytrail-php-sdk/tests/Model/RefundItemTest.php',
+        'Tests\\Model\\Token\\CardTest' => __DIR__ . '/..' . '/paytrail/paytrail-php-sdk/tests/Model/Token/CardTest.php',
+        'Tests\\Model\\Token\\CustomerTest' => __DIR__ . '/..' . '/paytrail/paytrail-php-sdk/tests/Model/Token/CustomerTest.php',
+        'Tests\\PaymentRequestTestCase' => __DIR__ . '/..' . '/paytrail/paytrail-php-sdk/tests/PaymentRequestTestCase.php',
+        'Tests\\Request\\AddCardFormRequestTest' => __DIR__ . '/..' . '/paytrail/paytrail-php-sdk/tests/Request/AddCardFormRequestTest.php',
+        'Tests\\Request\\CitPaymentRequestTest' => __DIR__ . '/..' . '/paytrail/paytrail-php-sdk/tests/Request/CitPaymentRequestTest.php',
+        'Tests\\Request\\EmailRefundRequestTest' => __DIR__ . '/..' . '/paytrail/paytrail-php-sdk/tests/Request/EmailRefundRequestTest.php',
+        'Tests\\Request\\GetTokenRequestTest' => __DIR__ . '/..' . '/paytrail/paytrail-php-sdk/tests/Request/GetTokenRequestTest.php',
+        'Tests\\Request\\MitPaymentRequestTest' => __DIR__ . '/..' . '/paytrail/paytrail-php-sdk/tests/Request/MitPaymentRequestTest.php',
+        'Tests\\Request\\PaymentRequestTest' => __DIR__ . '/..' . '/paytrail/paytrail-php-sdk/tests/Request/PaymentRequestTest.php',
+        'Tests\\Request\\PaymentStatusRequestTest' => __DIR__ . '/..' . '/paytrail/paytrail-php-sdk/tests/Request/PaymentStatusRequestTest.php',
+        'Tests\\Request\\ShopInShopPaymentRequestTest' => __DIR__ . '/..' . '/paytrail/paytrail-php-sdk/tests/Request/ShopInShopPaymentRequestTest.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit180b7839daa15dde1eeda4f01cf3e965::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit180b7839daa15dde1eeda4f01cf3e965::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit180b7839daa15dde1eeda4f01cf3e965::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitb6e089b57ff91578221f9cecb3a137a0::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitb6e089b57ff91578221f9cecb3a137a0::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInitb6e089b57ff91578221f9cecb3a137a0::$classMap;
 
         }, null, ClassLoader::class);
     }
